@@ -1,5 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
+Library     .venv/Lib/site-packages/robot/libraries/String.py
 
 
 *** Keywords ***
@@ -26,3 +27,9 @@ Realiza Login no Saucedemo
     Input Text    id=user-name    ${usuario}
     Input Password    id=password    ${senha}
     Click Button    id=login-button
+
+Converter Para Maiúscula
+    [Documentation]    Converte uma string para letras maiúsculas
+    [Arguments]    ${string_original}
+    ${string_convertida}=    Convert To Upper Case    ${string_original}
+    RETURN    ${string_convertida}

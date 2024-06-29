@@ -18,3 +18,11 @@ Verificar título de página
     Open Browser    ${url}    chrome
     Title Should Be    ${title}
     Close Browser
+
+Realiza Login no Saucedemo
+    [Documentation]    Loga no site https://www.saucedemo.com/v1/
+    [Arguments]    ${usuario}    ${senha}
+    Open Browser    https://www.saucedemo.com/v1/    chrome
+    Input Text    id=user-name    ${usuario}
+    Input Password    id=password    ${senha}
+    Click Button    id=login-button

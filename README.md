@@ -1,5 +1,3 @@
-Claro, Lívia! Aqui está um guia abrangente do Robot Framework do zero ao avançado, dividido em 100 tópicos:
-
 ### Introdução ao Robot Framework
 
 1. O que é o Robot Framework?
@@ -153,6 +151,3 @@ Claro, Lívia! Aqui está um guia abrangente do Robot Framework do zero ao avan�
 
 99. Comunidades e Fóruns de Robot Framework
 100. Cursos e Certificações de Robot Framework
-
-Este guia cobre desde a introdução e fundamentos até tópicos avançados, com foco em práticas e exemplos do mundo real.
-Cada tópico pode ser explorado detalhadamente para obter um conhecimento completo e avançado do Robot Framework.

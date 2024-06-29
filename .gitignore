@@ -1,0 +1,63 @@
+# Diretórios e arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyproj
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Configurações de IDEs e editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log do Robot Framework
+log.html
+report.html
+output.xml
+debug.log
+
+# Arquivos temporários
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de cobertura de testes
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.cache/
+.coverage.*
+nosetests.xml
+test-reports/
+pytest-report.html
+
+# Configurações do sistema operacional
+desktop.ini
+*.DS_Store
+
+# Arquivos específicos de implementação
+chromedriver
+geckodriver

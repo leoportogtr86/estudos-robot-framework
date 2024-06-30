@@ -27,3 +27,18 @@ Deve exibir uma mensagem de erro ao tentar logar com credenciais incorretas no c
     [Documentation]    Testa o login com credenciais incorretas na aplicacao cy-play
     Login Cy Play    admin    123
     Page Should Contain    Usuário ou senha incorretos!
+
+Deve preencher e submeter corretamente um formulario
+    [Documentation]    Teste de preenchimento e submissao de um formulario
+    [Setup]    Open Browser    https://leoportogtr86.github.io/cy-play/forms.html    chrome
+    Page Should Contain    Formulários
+    Input Text    id=text    Um texto qualquer
+    Input Password    id=password    senha123
+    Input Text    id=number    3444
+    Input Text    id=date    10/10/2024
+    Select From List By Label    id=select    Opção 3
+    Click Element    css=[value="Enviar"]
+    Location Should Contain    senha123
+    Location Should Contain    3444
+    Location Should Contain    option3
+    Sleep    5

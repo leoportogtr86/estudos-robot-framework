@@ -1,5 +1,8 @@
 *** Settings ***
-Library     SeleniumLibrary
+Documentation       Exercicios sobre criacao de casos de testes em robot framework
+
+Library             SeleniumLibrary
+Resource            ../custom_keyword.robot
 
 
 *** Variables ***
@@ -14,3 +17,8 @@ Deve acessar a pagina de comparar projetos
     [Setup]    Open Browser    browser=${BROWSER}    url=${URL}
     Title Should Be    ${TITLE}
     [Teardown]    Close Browser
+
+Deve logar corretamente na aplicacao cy-play
+    [Documentation]    Testa o login na aplicacao cy-play
+    Login Cy Play    admin    password123
+    Page Should Contain    Login realizado com sucesso!

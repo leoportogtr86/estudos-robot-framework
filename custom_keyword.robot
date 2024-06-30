@@ -33,3 +33,12 @@ Converter Para Maiúscula
     [Arguments]    ${string_original}
     ${string_convertida}=    Convert To Upper Case    ${string_original}
     RETURN    ${string_convertida}
+
+Login Cy Play
+    [Documentation]    Realiza login na aplicacao de teste cy-play
+    [Arguments]    ${user}    ${password}
+    Open Browser    url=https://leoportogtr86.github.io/cy-play/authentication.html    browser=chrome
+    Input Text    id=username    ${user}
+    Input Password    id=password-login    ${password}
+    Click Element    css=[value=Login]
+

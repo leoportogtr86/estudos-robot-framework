@@ -22,3 +22,8 @@ Deve logar corretamente na aplicacao cy-play
     [Documentation]    Testa o login na aplicacao cy-play
     Login Cy Play    admin    password123
     Page Should Contain    Login realizado com sucesso!
+
+Deve exibir uma mensagem de erro ao tentar logar com credenciais incorretas no cy-play
+    [Documentation]    Testa o login com credenciais incorretas na aplicacao cy-play
+    Login Cy Play    admin    123
+    Page Should Contain    Usuário ou senha incorretos!

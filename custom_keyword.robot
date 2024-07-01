@@ -1,6 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Library     .venv/Lib/site-packages/robot/libraries/String.py
+Library     Collections
 
 
 *** Keywords ***
@@ -42,3 +43,11 @@ Login Cy Play
     Input Password    id=password-login    ${password}
     Click Element    css=[value=Login]
 
+Verifica titulo do cy play
+    Open Browser    https://leoportogtr86.github.io/cy-play/    chrome
+    Page Should Contain    Cypress Playground - Automação VOX
+
+Tamanho Lista
+    [Arguments]    ${lista}
+    ${size}=    Get Length    ${lista}
+    RETURN    ${size}

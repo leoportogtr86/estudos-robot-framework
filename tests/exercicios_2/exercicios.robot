@@ -15,7 +15,9 @@ ${TITLE}        Comparar Projetos
 Deve acessar a pagina de comparar projetos
     [Documentation]    Acessa a url corretamente e verifica o titulo correto da pagina
     [Setup]    Open Browser    browser=${BROWSER}    url=${URL}
+    Maximize Browser Window
     Title Should Be    ${TITLE}
+    Sleep    10
     [Teardown]    Close Browser
 
 Deve logar corretamente na aplicacao cy-play

@@ -14,7 +14,7 @@ ${URL}      https://www.google.com/
 *** Test Cases ***
 Verificar Título da Página
     ${titulo} =    Get Title
-    Should Be Equal    ${titulo}    Google
+    Title Should Be    Google
 
 
 *** Keywords ***

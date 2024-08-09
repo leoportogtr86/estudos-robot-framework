@@ -18,6 +18,9 @@ Ex5
 Ex6
     Check Even Number    25
 
+Ex7
+    Log Numbers
+
 
 *** Keywords ***
 Log Hello World
@@ -42,3 +45,8 @@ Get Greeting
 Check Even Number
     [Arguments]    ${num}
     IF    ${num} % 2 == 0    Log    Par    ELSE    Log    Ímpar
+
+Log Numbers
+    FOR    ${i}    IN RANGE    1    6
+        Log    ${i}
+    END

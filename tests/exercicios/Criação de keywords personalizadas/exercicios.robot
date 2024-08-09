@@ -1,3 +1,7 @@
+*** Settings ***
+Resource    my_keywords.robot
+
+
 *** Test Cases ***
 Ex1
     Log Hello World
@@ -21,32 +25,6 @@ Ex6
 Ex7
     Log Numbers
 
-
-*** Keywords ***
-Log Hello World
-    Log    Hello, World!
-
-Log Message
-    [Arguments]    ${msg}
-    Log    ${msg}
-
-Sum Numbers
-    [Arguments]    ${num1}    ${num2}
-    ${soma}=    Evaluate    ${num1} + ${num2}
-    Log    Soma: ${soma}
-
-Greet and Sum
-    Log Hello World
-    Sum Numbers    50    150
-
-Get Greeting
-    RETURN    Hello, Robot Framework!
-
-Check Even Number
-    [Arguments]    ${num}
-    IF    ${num} % 2 == 0    Log    Par    ELSE    Log    Ímpar
-
-Log Numbers
-    FOR    ${i}    IN RANGE    1    6
-        Log    ${i}
-    END
+Ex8
+    ${lista}=    Create List    1    2    3    4    5
+    Sum List    ${lista}

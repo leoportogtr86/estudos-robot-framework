@@ -16,3 +16,5 @@ Teste do Título da Página
     [Documentation]    Verifica o Título da Página
     [Tags]    titulo
     Title Should Be    Cypress Playground - Automação VOX
+
+

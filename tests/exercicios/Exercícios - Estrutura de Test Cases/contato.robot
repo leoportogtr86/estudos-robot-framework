@@ -5,6 +5,7 @@ Library     SeleniumLibrary
 *** Test Cases ***
 Preencher e submeter o formulário
     Open Browser    http://127.0.0.1:5500/contato.html    chrome
+    Maximize Browser Window
     Location Should Be    http://127.0.0.1:5500/contato.html
     Page Should Contain    Contato
     Wait Until Element Is Visible    css=#name
@@ -16,5 +17,4 @@ Preencher e submeter o formulário
     Wait Until Element Is Visible    css=[type="submit"]
     Click Button    css=[type="submit"]
     Page Should Contain    Mensagem enviada com sucesso!
-    Maximize Browser Window
     Sleep    5

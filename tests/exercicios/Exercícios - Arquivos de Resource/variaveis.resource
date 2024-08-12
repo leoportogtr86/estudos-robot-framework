@@ -1,0 +1,2 @@
+*** Variables ***
+${MSG}      Hello, World!

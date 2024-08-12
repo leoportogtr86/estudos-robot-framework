@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    exercicios.resource
-Resource    variaveis.resource
-Resource    keywords.resource
+Resource    variables/variaveis.resource
+Resource    keywords/keywords.resource
 Library     SeleniumLibrary
 
 

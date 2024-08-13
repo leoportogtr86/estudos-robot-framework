@@ -17,3 +17,16 @@ Ex3
     ${nomes}=    Create List    Leonardo    Joe    Bob    Marla
     Remove From List    ${nomes}    1
     Log To Console    ${nomes}
+
+Ex4
+    ${carros}=    Create List    Kwid    Gol    Fox    Golf
+    ${carros_len}=    Get Length    ${carros}
+    Should Be Equal As Integers    ${carros_len}    4
+
+Ex5
+    ${pessoa}=    Create Dictionary
+    ...    nome=Leo
+    ...    idade=20
+    ...    profissao=QA
+    Set To Dictionary    ${pessoa}    isCasado=${True}
+    Dictionary Should Contain Key    ${pessoa}    isCasado

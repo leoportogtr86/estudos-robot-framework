@@ -10,7 +10,7 @@ ${PASSWORD}=    test
 
 *** Test Cases ***
 Ex1
-    Open Browser    https://example.com    chrome
+    Open Browser    https://example.com    chrome    options=add_argument("--headless")
     Location Should Be    https://example.com/
 
 Ex2

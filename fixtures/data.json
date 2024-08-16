@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+        {
+            "nome": "João Silva",
+            "email": "joao.silva@example.com",
+            "senha": "senha123"
+        },
+        {
+            "nome": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "senha456"
+        }
+    ],
+    "produtos": [
+        {
+            "id": "12345",
+            "nome": "Produto A",
+            "preco": 99.99
+        },
+        {
+            "id": "67890",
+            "nome": "Produto B",
+            "preco": 149.99
+        }
+    ]
+}

@@ -42,3 +42,22 @@ Ex7
     Go To    https://www.google.com
     Go Back
     Sleep    5
+
+Ex8
+    New Browser    browser=firefox    headless=False
+    New Context    
+    New Page    https://www.example.com      
+    ${title1}    Get Title
+    Should Be Equal    ${title1}    Example Domain  
+    New Page    https://www.google.com     
+    ${title1}    Get Title
+    Should Be Equal    ${title1}    Google
+    Sleep    5   
+
+Ex9
+    New Browser    browser=chromium    headless=False
+    New Page    https://www.google.com/
+    Fill Text    css=[title="Pesquisar"]    Receita de Bolo de Chocolate
+    Press Keys    css=[title="Pesquisar"]    Enter
+    Wait For Elements State    xpath=//h3[text()="A melhor receita de bolo de chocolate"]    visible  
+    Sleep    5

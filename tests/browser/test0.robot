@@ -8,4 +8,6 @@ Ex0
     Sleep    5
     ${title}    Get Title
     Should Be Equal    ${title}    Example Domain
+    Wait For Elements State    h1    visible
     Get Text    h1    contains    Example Domain
+    Take Screenshot

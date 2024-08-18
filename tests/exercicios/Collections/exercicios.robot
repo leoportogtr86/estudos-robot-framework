@@ -1,5 +1,7 @@
 *** Settings ***
 Library     Collections
+Library     SeleniumLibrary
+Library     OperatingSystem
 
 
 *** Test Cases ***
@@ -30,3 +32,17 @@ Ex5
     ...    profissao=QA
     Set To Dictionary    ${pessoa}    isCasado=${True}
     Dictionary Should Contain Key    ${pessoa}    isCasado
+
+Ex6
+    ${empresa}=    Create Dictionary
+    ...    razao_social=Teste LTDA
+    ...    nire=0000
+    ...    cnpj=1111
+    Dictionary Should Contain Key    ${empresa}    nire
+    ${nire}=    Get From Dictionary    ${empresa}    nire
+    Should Be Equal    ${nire}    0000
+
+Ex7
+    @{lista_pares}=    Create List    nome    Leo    idade    20    profissao    QA
+    &{pessoa_dict}=    Convert To Dictionary    ${lista_pares}
+    Log    ${pessoa_dict}

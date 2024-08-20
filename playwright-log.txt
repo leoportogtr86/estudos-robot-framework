@@ -1,49 +1,75 @@
-{"level":30,"time":"2024-08-19T23:53:44.880Z","pid":61260,"hostname":"leoporto","msg":"Listening on 61288"}
-(node:61260) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2024-08-20T00:15:21.474Z","pid":63036,"hostname":"leoporto","msg":"Listening on 62448"}
+(node:63036) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2024-08-19T23:53:45.327Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:45.328Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:45.333Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:45.333Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:45.342Z","pid":61260,"hostname":"leoporto","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2024-08-19T23:53:45.740Z","pid":61260,"hostname":"leoporto","msg":"Adding browser to stack: chromium, version: 128.0.6613.18"}
-{"level":30,"time":"2024-08-19T23:53:45.741Z","pid":61260,"hostname":"leoporto","msg":"End of node method newBrowser"}
-{"level":30,"time":"2024-08-19T23:53:45.741Z","pid":61260,"hostname":"leoporto","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2024-08-19T23:53:45.752Z","pid":61260,"hostname":"leoporto","msg":"Start of node method newPage"}
-{"level":30,"time":"2024-08-19T23:53:45.753Z","pid":61260,"hostname":"leoporto","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2024-08-19T23:53:45.786Z","pid":61260,"hostname":"leoporto","msg":"Changed active context"}
-{"level":30,"time":"2024-08-19T23:53:46.244Z","pid":61260,"hostname":"leoporto","msg":"Video path: undefined"}
-{"level":30,"time":"2024-08-19T23:53:46.244Z","pid":61260,"hostname":"leoporto","msg":"Changed active page"}
-{"level":30,"time":"2024-08-19T23:53:46.351Z","pid":61260,"hostname":"leoporto","msg":"End of node method newPage"}
-{"level":30,"time":"2024-08-19T23:53:46.371Z","pid":61260,"hostname":"leoporto","msg":"Start of node method selectOption"}
-{"level":30,"time":"2024-08-19T23:53:46.371Z","pid":61260,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=country in page."}
-{"level":30,"time":"2024-08-19T23:53:46.527Z","pid":61260,"hostname":"leoporto","msg":"Option entries: 3"}
-{"level":30,"time":"2024-08-19T23:53:46.528Z","pid":61260,"hostname":"leoporto","msg":"End of node method selectOption"}
-{"level":30,"time":"2024-08-19T23:53:46.527Z","pid":61260,"hostname":"leoporto","msg":"Selected entries: 1"}
-{"level":30,"time":"2024-08-19T23:53:51.549Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.555Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.558Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.561Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.564Z","pid":61260,"hostname":"leoporto","msg":"Changed active context"}
-{"level":30,"time":"2024-08-19T23:53:51.564Z","pid":61260,"hostname":"leoporto","msg":"Changing current active page: page=9547f05f-c9e6-471a-8832-90d878e9550c"}
-{"level":30,"time":"2024-08-19T23:53:51.564Z","pid":61260,"hostname":"leoporto","msg":"Changed active page"}
-{"level":30,"time":"2024-08-19T23:53:51.569Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.571Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.575Z","pid":61260,"hostname":"leoporto","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2024-08-19T23:53:51.575Z","pid":61260,"hostname":"leoporto","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2024-08-19T23:53:51.580Z","pid":61260,"hostname":"leoporto","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2024-08-19T23:53:51.581Z","pid":61260,"hostname":"leoporto","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2024-08-19T23:53:51.583Z","pid":61260,"hostname":"leoporto","msg":"Changing current active page: page=9547f05f-c9e6-471a-8832-90d878e9550c"}
-{"level":30,"time":"2024-08-19T23:53:51.583Z","pid":61260,"hostname":"leoporto","msg":"Changed active page"}
-{"level":30,"time":"2024-08-19T23:53:51.589Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.591Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.593Z","pid":61260,"hostname":"leoporto","msg":"Changed active context"}
-{"level":30,"time":"2024-08-19T23:53:51.593Z","pid":61260,"hostname":"leoporto","msg":"Changing current active page: page=9547f05f-c9e6-471a-8832-90d878e9550c"}
-{"level":30,"time":"2024-08-19T23:53:51.593Z","pid":61260,"hostname":"leoporto","msg":"Changed active page"}
-{"level":30,"time":"2024-08-19T23:53:51.596Z","pid":61260,"hostname":"leoporto","msg":"Start of node method closeContext"}
-{"level":30,"time":"2024-08-19T23:53:51.654Z","pid":61260,"hostname":"leoporto","msg":"Removed page=04ba19c9-144b-4d2b-a826-2d75f688fee4 from context=afec6c8a-1fb5-4b12-8b87-a49b74e03316 page stack"}
-{"level":30,"time":"2024-08-19T23:53:51.700Z","pid":61260,"hostname":"leoporto","msg":"End of node method closeContext"}
-{"level":30,"time":"2024-08-19T23:53:51.721Z","pid":61260,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:51.721Z","pid":61260,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-08-19T23:53:53.816Z","pid":61260,"hostname":"leoporto","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-08-19T23:53:54.023Z","pid":61260,"hostname":"leoporto","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2024-08-20T00:15:21.991Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:21.992Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:21.996Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:21.996Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:22.004Z","pid":63036,"hostname":"leoporto","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-08-20T00:15:22.419Z","pid":63036,"hostname":"leoporto","msg":"Adding browser to stack: chromium, version: 128.0.6613.18"}
+{"level":30,"time":"2024-08-20T00:15:22.420Z","pid":63036,"hostname":"leoporto","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-08-20T00:15:22.420Z","pid":63036,"hostname":"leoporto","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-08-20T00:15:22.430Z","pid":63036,"hostname":"leoporto","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-08-20T00:15:22.430Z","pid":63036,"hostname":"leoporto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-20T00:15:22.453Z","pid":63036,"hostname":"leoporto","msg":"Changed active context"}
+{"level":30,"time":"2024-08-20T00:15:22.871Z","pid":63036,"hostname":"leoporto","msg":"Video path: undefined"}
+{"level":30,"time":"2024-08-20T00:15:22.872Z","pid":63036,"hostname":"leoporto","msg":"Changed active page"}
+{"level":30,"time":"2024-08-20T00:15:22.976Z","pid":63036,"hostname":"leoporto","msg":"End of node method newPage"}
+{"level":30,"time":"2024-08-20T00:15:22.991Z","pid":63036,"hostname":"leoporto","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:22.992Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2024-08-20T00:15:23.066Z","pid":63036,"hostname":"leoporto","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:23.073Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.073Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=username in page."}
+{"level":30,"time":"2024-08-20T00:15:23.122Z","pid":63036,"hostname":"leoporto","msg":"Retrieved text for element id=username containing TesteUsuario"}
+{"level":30,"time":"2024-08-20T00:15:23.122Z","pid":63036,"hostname":"leoporto","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.131Z","pid":63036,"hostname":"leoporto","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:23.131Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2024-08-20T00:15:23.154Z","pid":63036,"hostname":"leoporto","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:23.162Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.163Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2024-08-20T00:15:23.194Z","pid":63036,"hostname":"leoporto","msg":"Retrieved text for element id=password containing 123456"}
+{"level":30,"time":"2024-08-20T00:15:23.194Z","pid":63036,"hostname":"leoporto","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.204Z","pid":63036,"hostname":"leoporto","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:23.204Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=comments in page."}
+{"level":30,"time":"2024-08-20T00:15:23.225Z","pid":63036,"hostname":"leoporto","msg":"End of node method fillText"}
+{"level":30,"time":"2024-08-20T00:15:23.233Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.234Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=comments in page."}
+{"level":30,"time":"2024-08-20T00:15:23.259Z","pid":63036,"hostname":"leoporto","msg":"Retrieved text for element id=comments containing Esse é um comentário de teste."}
+{"level":30,"time":"2024-08-20T00:15:23.259Z","pid":63036,"hostname":"leoporto","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.267Z","pid":63036,"hostname":"leoporto","msg":"Start of node method click"}
+{"level":30,"time":"2024-08-20T00:15:23.268Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=submitBtn in page."}
+{"level":30,"time":"2024-08-20T00:15:23.360Z","pid":63036,"hostname":"leoporto","msg":"End of node method click"}
+{"level":30,"time":"2024-08-20T00:15:23.367Z","pid":63036,"hostname":"leoporto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-08-20T00:15:23.367Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":30,"time":"2024-08-20T00:15:23.373Z","pid":63036,"hostname":"leoporto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-08-20T00:15:23.378Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:23.378Z","pid":63036,"hostname":"leoporto","msg":"Strict mode is enabled, find Locator with id=message in page."}
+{"level":30,"time":"2024-08-20T00:15:23.395Z","pid":63036,"hostname":"leoporto","msg":"Retrieved text for element id=message containing Formulário enviado com sucesso!"}
+{"level":30,"time":"2024-08-20T00:15:23.396Z","pid":63036,"hostname":"leoporto","msg":"End of node method getText"}
+{"level":30,"time":"2024-08-20T00:15:28.409Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.413Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.416Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.419Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.421Z","pid":63036,"hostname":"leoporto","msg":"Changed active context"}
+{"level":30,"time":"2024-08-20T00:15:28.422Z","pid":63036,"hostname":"leoporto","msg":"Changing current active page: page=8dda18b3-f270-42ba-9d0f-cdcadf085a52"}
+{"level":30,"time":"2024-08-20T00:15:28.422Z","pid":63036,"hostname":"leoporto","msg":"Changed active page"}
+{"level":30,"time":"2024-08-20T00:15:28.427Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.429Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.433Z","pid":63036,"hostname":"leoporto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-20T00:15:28.433Z","pid":63036,"hostname":"leoporto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-20T00:15:28.436Z","pid":63036,"hostname":"leoporto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-20T00:15:28.437Z","pid":63036,"hostname":"leoporto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-20T00:15:28.439Z","pid":63036,"hostname":"leoporto","msg":"Changing current active page: page=8dda18b3-f270-42ba-9d0f-cdcadf085a52"}
+{"level":30,"time":"2024-08-20T00:15:28.439Z","pid":63036,"hostname":"leoporto","msg":"Changed active page"}
+{"level":30,"time":"2024-08-20T00:15:28.443Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.445Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.448Z","pid":63036,"hostname":"leoporto","msg":"Changed active context"}
+{"level":30,"time":"2024-08-20T00:15:28.448Z","pid":63036,"hostname":"leoporto","msg":"Changing current active page: page=8dda18b3-f270-42ba-9d0f-cdcadf085a52"}
+{"level":30,"time":"2024-08-20T00:15:28.448Z","pid":63036,"hostname":"leoporto","msg":"Changed active page"}
+{"level":30,"time":"2024-08-20T00:15:28.451Z","pid":63036,"hostname":"leoporto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-20T00:15:28.485Z","pid":63036,"hostname":"leoporto","msg":"Removed page=dcb45527-fad8-4deb-95d9-2547db40f424 from context=c302ba28-6d2a-4743-8038-acee37e38e6e page stack"}
+{"level":30,"time":"2024-08-20T00:15:28.512Z","pid":63036,"hostname":"leoporto","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-20T00:15:28.530Z","pid":63036,"hostname":"leoporto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:28.531Z","pid":63036,"hostname":"leoporto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-20T00:15:30.622Z","pid":63036,"hostname":"leoporto","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-08-20T00:15:30.765Z","pid":63036,"hostname":"leoporto","msg":"End of node method closeAllBrowsers"}

@@ -61,3 +61,12 @@ Ex9
     Press Keys    css=[title="Pesquisar"]    Enter
     Wait For Elements State    xpath=//h3[text()="A melhor receita de bolo de chocolate"]    visible  
     Sleep    5
+
+Ex10
+    New Browser    browser=chromium    headless=False
+    New Page    https://www.google.com/     
+    Wait For Elements State    css=.FPdoLc input[value="Estou com sorte"]    visible    5  
+    Click    css=.FPdoLc input[value="Estou com sorte"]
+    ${url}    Get Url
+    Should Be Equal    ${url}    https://doodles.google/
+    Sleep    5

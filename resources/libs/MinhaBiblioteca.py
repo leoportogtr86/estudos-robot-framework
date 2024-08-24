@@ -17,3 +17,6 @@ def subtracao(a, b):
 
 def multiplica_com_fator_opcional(a, b, fator = 1):
     return int(a) * int(b) * fator
+
+def obtem_lista():
+    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

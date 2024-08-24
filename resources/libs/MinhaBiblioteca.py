@@ -11,3 +11,6 @@ def soma_dois_numeros(a, b):
     """
     # Corpo da função
     return int(a) + int(b) 
+
+def subtracao(a, b):
+    return int(a) - int(b) 

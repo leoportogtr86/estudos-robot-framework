@@ -14,3 +14,6 @@ def soma_dois_numeros(a, b):
 
 def subtracao(a, b):
     return int(a) - int(b) 
+
+def multiplica_com_fator_opcional(a, b, fator = 1):
+    return int(a) * int(b) * fator

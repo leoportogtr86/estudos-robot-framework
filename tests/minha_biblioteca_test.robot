@@ -9,3 +9,7 @@ Ex1
 Ex2
     ${res}    Subtracao    100    50
     Should Be Equal As Integers    ${res}    50  
+
+Ex2
+    ${res}    Multiplica Com Fator Opcional    10    20    2
+    Log To Console    ${res}

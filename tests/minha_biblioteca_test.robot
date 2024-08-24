@@ -20,3 +20,7 @@ Ex4
         Log   ${element}
         
     END    
+
+Ex5
+    Checks Positivo    10    
+    Checks Positivo    ${-10}    

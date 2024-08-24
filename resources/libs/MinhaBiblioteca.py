@@ -20,3 +20,7 @@ def multiplica_com_fator_opcional(a, b, fator = 1):
 
 def obtem_lista():
     return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def checks_positivo(numero):
+    if int(numero) <= 0:
+        raise ValueError("Oops, o número não pode ser negativo...")
